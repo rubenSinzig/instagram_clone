@@ -3,11 +3,11 @@
   width: 100vw;
   height: 54px;
   @include flex-center;
-  border: $cut-border;
+  border: $border;
 
   // inner wrapper
   .nav-wrapper {
-    width: 80%;
+    width: 975px;
     height: 54px;
     @include flex-center;
     justify-content: space-between;
@@ -20,5 +20,40 @@
     }
 
     // Searchbar
+    .nav-searchbar {
+      @include flex-center;
+      justify-content: flex-start;
+      border: $border;
+      width: 215px;
+      height: 28px;
+      border-radius: 5px;
+      background-color: $background-grey;
+
+      span {
+        font-size: 10px;
+        padding: 5px 10px;
+      }
+
+      input {
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border: none;
+      }
+    }
+
+    // Button Login
+    .nav-login {
+      @include flex-center;
+
+      button {
+        background-color: $button-color;
+      }
+
+      p > a {
+        text-decoration: none;
+        color: $button-color;
+      }
+    }
   }
 }

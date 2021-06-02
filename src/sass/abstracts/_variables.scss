@@ -1,5 +1,10 @@
+// color
+$border-color: #dbdbdb;
+$background-grey: #fafafa;
+$button-color: #0e95f7;
+
 // font
 $helvetica: Helvetica, "Sans Serif", Arial;
 
 // cut-off border between sections
-$cut-border: 1px solid #dbdbdb;
+$border: 1px solid $border-color;
