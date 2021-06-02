@@ -12,13 +12,19 @@ const Nav = () => {
       ></img>
 
       {/* Searchbar */}
-      <input type="search" placeholder="Search"></input>
+      <div className="nav-searchbar">
+        {/* change later to Font Awesome */}
+        <span>🔍</span>
+        <input type="search" placeholder="Search"></input>
+      </div>
 
       {/* Login */}
-      <button>Log In</button>
-      <p>
-        <a href="#"> Sign Up </a>
-      </p>
+      <div className="nav-login">
+        <button>Log In</button>
+        <p>
+          <a href="#"> Sign Up </a>
+        </p>
+      </div>
     </div>
   );
 };
