@@ -1,0 +1,24 @@
+// main wrapper
+.outer-nav-wrapper {
+  width: 100vw;
+  height: 54px;
+  @include flex-center;
+  border: $cut-border;
+
+  // inner wrapper
+  .nav-wrapper {
+    width: 80%;
+    height: 54px;
+    @include flex-center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    // Instagram Logo
+    .insta-logo {
+      width: 103px;
+      height: 29px;
+    }
+
+    // Searchbar
+  }
+}
