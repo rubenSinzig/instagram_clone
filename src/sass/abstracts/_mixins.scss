@@ -1,0 +1,12 @@
+// normalize
+@mixin normalize {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// fonts
+@mixin font-normal {
+  font-family: $helvetica;
+  font-size: 1rem;
+}
