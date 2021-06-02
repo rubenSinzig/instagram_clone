@@ -1,20 +1,20 @@
 import React, { useState } from "react";
-import "./components/Nav";
-// import "./components/Header";
-// import "./components/SubHeader";
-// import "./components/Gallery";
-// import "./components/Suggestions";
-// import "./components/Footer";
+import Nav from "./components/Nav";
+import Header from "./components/Header";
+import SubHeader from "./components/SubHeader";
+import Gallery from "./components/Gallery";
+import Suggestions from "./components/Suggestions";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <React.Fragment>
       <Nav />
-      {/* <Header />
+      <Header />
       <SubHeader />
       <Gallery />
       <Suggestions />
-      <Footer /> */}
+      <Footer />
     </React.Fragment>
   );
 }
