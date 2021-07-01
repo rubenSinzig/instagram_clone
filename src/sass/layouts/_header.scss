@@ -1,0 +1,16 @@
+.header-wrapper {
+  @include flex-center;
+  border: 1px dashed red;
+
+  .header-wrapper-img {
+    width: 150px;
+    height: 150px;
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+}
