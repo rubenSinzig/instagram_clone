@@ -5,7 +5,11 @@ const Header = () => {
   return (
     <div className="header-wrapper">
       <div className="header-wrapper-img">
-        <img src={profilePicture} alt="Mercedes-Star" />
+        <div className="header-circle-img">
+          <div className="header-circle-white">
+            <img src={profilePicture} alt="Mercedes-Star" />
+          </div>
+        </div>
       </div>
       <div className="header-wrapper-info">
         <section className="header-info-top">top</section>

@@ -10,11 +10,13 @@ function App() {
   return (
     <React.Fragment>
       <Nav />
-      <Header />
-      <SubHeader />
-      <Gallery />
-      <Suggestions />
-      <Footer />
+      <div className="main-wrapper">
+        <Header />
+        <SubHeader />
+        <Gallery />
+        <Suggestions />
+        <Footer />
+      </div>
     </React.Fragment>
   );
 }

@@ -1,16 +1,35 @@
 .header-wrapper {
   @include flex-center;
-  border: 1px dashed red;
+  width: 70vw;
+  height: auto;
 
   .header-wrapper-img {
-    width: 150px;
-    height: 150px;
+    @include flex-center;
+    width: 260px;
+    height: 180px;
 
-    img {
-      width: 150px;
-      height: 150px;
+    .header-circle-img {
+      @include flex-center;
+      width: 163px;
+      height: 163px;
+      background: $insta-gradient;
       border-radius: 50%;
-      object-fit: cover;
+      cursor: pointer;
+
+      .header-circle-white {
+        @include flex-center;
+        width: 157px;
+        height: 157px;
+        background: white;
+        border-radius: 50%;
+
+        img {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
     }
   }
 }
