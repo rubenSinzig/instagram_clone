@@ -1,3 +1,4 @@
+import React from "react";
 import logo from "../images/instagram-logo.png";
 
 const Nav = () => {
