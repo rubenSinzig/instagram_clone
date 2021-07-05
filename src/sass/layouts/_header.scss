@@ -1,12 +1,14 @@
 .header-wrapper {
   @include flex-center;
   width: 70vw;
-  height: auto;
+  height: 200px;
 
+  // Profile-Image
   .header-wrapper-img {
     @include flex-center;
     width: 260px;
     height: 180px;
+    margin-right: 40px;
 
     .header-circle-img {
       @include flex-center;
@@ -31,5 +33,42 @@
         }
       }
     }
+  }
+
+  // Profile-Data
+  .header-wrapper-info {
+    width: 470px;
+    height: 155px;
+
+    // Profile-Data-Top
+    .header-info-top {
+      @include flex-center;
+      width: 460px;
+      justify-content: flex-start;
+      margin-bottom: 15px;
+
+      h2 {
+        font-weight: lighter;
+        margin-right: 8px;
+      }
+
+      .mb-icon {
+        color: rgb(134, 134, 134);
+        margin-right: 20px;
+      }
+
+      button {
+        @include insta-btn;
+        margin-right: 8px;
+        cursor: pointer;
+      }
+
+      div {
+        font-size: 11px;
+        cursor: pointer;
+      }
+    }
+
+    // Profile-Data-Top
   }
 }
