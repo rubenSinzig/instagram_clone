@@ -12,15 +12,24 @@
       width: 90px;
       height: 90px;
       border-radius: 50%;
-      background-color: rgb(231, 231, 231);
+      background-color: rgb(226, 226, 226);
       margin-bottom: 12px;
       @include flex-center;
+      cursor: pointer;
 
       .story-list-inner {
         width: 86px;
         height: 86px;
         border-radius: 50%;
+        @include flex-center;
         background-color: white;
+
+        img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
       }
     }
 
