@@ -30,7 +30,18 @@ const Header = () => {
             172 <span>following</span>
           </div>
         </section>
-        <section className="header-info-bottom">bottom</section>
+        <section className="header-info-bottom">
+          <h3>Mercedes-Benz Classic</h3>
+          <p>Welcome to the official channel of Mercedes-Benz Classic.</p>
+          <h4>
+            <a
+              href="https://www.mercedes-benz-classic-store.com"
+              target="_blank"
+            >
+              go to the classic store
+            </a>
+          </h4>
+        </section>
       </div>
     </div>
   );
