@@ -6,7 +6,7 @@ const Nav = () => {
     <div className="outer-nav-wrapper">
       <div className="nav-wrapper">
         {/* Logo */}
-        <a href="#">
+        <a href="https://rubensinzig.github.io/instagram/">
           <img className="insta-logo" src={logo} alt="Instagram Logo"></img>
         </a>
 
@@ -21,7 +21,9 @@ const Nav = () => {
         <div className="nav-login">
           <button>Log In</button>
           <p>
-            <a href="#"> Sign Up </a>
+            <a href="https://www.instagram.com/accounts/emailsignup/?hl=en">
+              Sign Up
+            </a>
           </p>
         </div>
       </div>
