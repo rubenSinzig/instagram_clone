@@ -5,8 +5,8 @@
   border-top: 1px solid rgb(206, 206, 206);
 
   .wrapper-gallery-link {
+    width: 135px;
     @include flex-center;
-    margin-right: 70px;
 
     .posts-icon {
       font-size: 12px;
