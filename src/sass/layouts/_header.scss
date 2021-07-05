@@ -69,6 +69,19 @@
       }
     }
 
-    // Profile-Data-Top
+    // Profile-Data-middle
+    .header-info-middle {
+      @include flex-center;
+      justify-content: flex-start;
+
+      div {
+        margin-right: 45px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        span {
+          font-weight: normal;
+        }
+      }
+    }
   }
 }

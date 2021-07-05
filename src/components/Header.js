@@ -19,7 +19,17 @@ const Header = () => {
           <button>Follow</button>
           <div>● ● ●</div>
         </section>
-        <section className="header-info-middle">middle</section>
+        <section className="header-info-middle">
+          <div>
+            527 <span>posts</span>
+          </div>
+          <div>
+            5.3m <span>followers</span>
+          </div>
+          <div>
+            172 <span>following</span>
+          </div>
+        </section>
         <section className="header-info-bottom">bottom</section>
       </div>
     </div>
