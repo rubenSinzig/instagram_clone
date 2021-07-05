@@ -2,6 +2,7 @@
   width: 700px;
   @include flex-center;
   justify-content: flex-start;
+  margin-bottom: 50px;
 
   .story-list-wrapper {
     @include flex-center;

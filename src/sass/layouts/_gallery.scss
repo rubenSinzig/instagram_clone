@@ -1,0 +1,39 @@
+.gallery-wrapper {
+  width: 800px;
+  height: 50px;
+  @include flex-center;
+  border-top: 1px solid rgb(206, 206, 206);
+
+  .wrapper-gallery-link {
+    @include flex-center;
+    margin-right: 70px;
+
+    .posts-icon {
+      font-size: 12px;
+      margin-right: 5px;
+    }
+
+    .guides-icon {
+      margin-right: 5px;
+    }
+
+    .reels-icon {
+      font-size: 15px;
+      margin-right: 5px;
+    }
+
+    .igtv-icon {
+      margin-right: 5px;
+    }
+
+    .tagged-icon {
+      margin-right: 5px;
+    }
+
+    h6 {
+      font-size: 13px;
+      letter-spacing: 1px;
+      font-weight: normal;
+    }
+  }
+}
