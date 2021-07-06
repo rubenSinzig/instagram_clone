@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../images/instagram-logo.png";
 
 const Nav = () => {
   return (
@@ -7,9 +6,13 @@ const Nav = () => {
       <div className="nav-wrapper">
         {/* Logo */}
         <a href="https://rubensinzig.github.io/instagram/">
-          <img className="insta-logo" src={logo} alt="Instagram Logo"></img>
+          <img
+            className="insta-logo"
+            src={`${process.env.PUBLIC_URL}/images/instagram-logo.png`}
+            alt="Instagram Logo"
+          />
         </a>
-
+        {console.log(`${process.env.PUBLIC_URL}/images/instagram-logo.png`)}
         {/* Searchbar */}
         <div className="nav-searchbar">
           {/* change later to Font Awesome */}

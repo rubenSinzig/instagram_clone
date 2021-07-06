@@ -1,5 +1,5 @@
 import React from "react";
-import profilePicture from "../images/profile-picture.jpg";
+
 import { SiMercedes } from "react-icons/si";
 
 const Header = () => {
@@ -8,7 +8,10 @@ const Header = () => {
       <div className="header-wrapper-img">
         <div className="header-circle-img">
           <div className="header-circle-white">
-            <img src={profilePicture} alt="Mercedes-Star" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/profile-picture.jpg`}
+              alt="Mercedes-Star"
+            />
           </div>
         </div>
       </div>
