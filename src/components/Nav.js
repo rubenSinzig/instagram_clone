@@ -23,9 +23,7 @@ const Nav = () => {
         {/* Login */}
         <div className="nav-login">
           <button>
-            <a href="https://www.instagram.com/accounts/login/?hl=en&next=%2Fmercedesbenz_de%2F&source=desktop_nav">
-              Log In
-            </a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en">Log In</a>
           </button>
           <p>
             <a href="https://www.instagram.com/accounts/emailsignup/?hl=en">
