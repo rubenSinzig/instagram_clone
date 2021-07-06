@@ -1,16 +1,19 @@
 .main-wrapper-posts {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
   justify-content: center;
   align-items: center;
   width: 900px;
   height: auto;
-  border: 1px dashed blue;
 
   .wrapper-posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
+    cursor: pointer;
 
-    border: 1px dashed red;
     &:hover {
       .posts-overlay {
         display: flex;
@@ -19,13 +22,17 @@
         position: absolute;
         top: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.35);
-        width: 250px;
-        height: 250px;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 290px;
+        height: 290px;
         color: white;
 
         div {
-          margin-right: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 25px;
+          font-size: 20px;
 
           span {
             margin-left: 5px;
@@ -35,8 +42,8 @@
     }
 
     img {
-      width: 250px;
-      height: 250px;
+      width: 290px;
+      height: 290px;
       object-fit: cover;
     }
 
