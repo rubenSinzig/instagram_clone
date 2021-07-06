@@ -1,9 +1,12 @@
 // main wrapper
 .outer-nav-wrapper {
+  position: fixed;
   width: 100vw;
   height: 54px;
   @include flex-center;
   border: $border;
+  background-color: white;
+  z-index: 10;
 
   // inner wrapper
   .nav-wrapper {
