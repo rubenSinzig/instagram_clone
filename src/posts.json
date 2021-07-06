@@ -1,110 +1,164 @@
 [
   {
     "id": 1,
-    "image": "posts-1.jpg"
+    "image": "posts-1.jpg",
+    "likes": "5.3k",
+    "comments": 14
   },
   {
     "id": 2,
-    "image": "posts-2.jpg"
+    "image": "posts-2.jpg",
+    "likes": "8.3k",
+    "comments": 51
   },
   {
     "id": 3,
-    "image": "posts-3.jpg"
+    "image": "posts-3.jpg",
+    "likes": "2.3k",
+    "comments": 14
   },
   {
     "id": 4,
-    "image": "posts-4.jpg"
+    "image": "posts-4.jpg",
+    "likes": "3.9k",
+    "comments": 9
   },
   {
     "id": 5,
-    "image": "posts-5.jpg"
+    "image": "posts-5.jpg",
+    "likes": "5.7k",
+    "comments": 131
   },
   {
     "id": 6,
-    "image": "posts-6.jpg"
+    "image": "posts-6.jpg",
+    "likes": "13.8k",
+    "comments": 52
   },
   {
     "id": 7,
-    "image": "posts-7.jpg"
+    "image": "posts-7.jpg",
+    "likes": "8.3k",
+    "comments": 19
   },
   {
     "id": 8,
-    "image": "posts-8.jpg"
+    "image": "posts-8.jpg",
+    "likes": "12.3k",
+    "comments": 27
   },
   {
     "id": 9,
-    "image": "posts-9.jpg"
+    "image": "posts-9.jpg",
+    "likes": "10.7k",
+    "comments": 48
   },
   {
     "id": 10,
-    "image": "posts-10.jpg"
+    "image": "posts-10.jpg",
+    "likes": "12.3k",
+    "comments": 36
   },
   {
     "id": 11,
-    "image": "posts-11.jpg"
+    "image": "posts-11.jpg",
+    "likes": "3.1k",
+    "comments": 27
   },
   {
     "id": 12,
-    "image": "posts-12.jpg"
+    "image": "posts-12.jpg",
+    "likes": "7.5k",
+    "comments": 72
   },
   {
     "id": 13,
-    "image": "posts-13.jpg"
+    "image": "posts-13.jpg",
+    "likes": "12.3k",
+    "comments": 64
   },
   {
     "id": 14,
-    "image": "posts-14.jpg"
+    "image": "posts-14.jpg",
+    "likes": "14.7k",
+    "comments": 8
   },
   {
     "id": 15,
-    "image": "posts-15.jpg"
+    "image": "posts-15.jpg",
+    "likes": "13.7k",
+    "comments": 91
   },
   {
     "id": 16,
-    "image": "posts-16.jpg"
+    "image": "posts-16.jpg",
+    "likes": "11.3k",
+    "comments": 62
   },
   {
     "id": 17,
-    "image": "posts-17.jpg"
+    "image": "posts-17.jpg",
+    "likes": "5.1k",
+    "comments": 21
   },
   {
     "id": 18,
-    "image": "posts-18.jpg"
+    "image": "posts-18.jpg",
+    "likes": "17.9k",
+    "comments": 13
   },
   {
     "id": 19,
-    "image": "posts-19.jpg"
+    "image": "posts-19.jpg",
+    "likes": "38.4k",
+    "comments": 26
   },
   {
     "id": 20,
-    "image": "posts-20.jpg"
+    "image": "posts-20.jpg",
+    "likes": "29.4k",
+    "comments": 22
   },
   {
     "id": 21,
-    "image": "posts-21.jpg"
+    "image": "posts-21.jpg",
+    "likes": "17.2k",
+    "comments": 38
   },
   {
     "id": 22,
-    "image": "posts-22.jpg"
+    "image": "posts-22.jpg",
+    "likes": "4.9k",
+    "comments": 55
   },
   {
     "id": 23,
-    "image": "posts-23.jpg"
+    "image": "posts-23.jpg",
+    "likes": "7.1k",
+    "comments": 70
   },
   {
     "id": 24,
-    "image": "posts-24.jpg"
+    "image": "posts-24.jpg",
+    "likes": "8.8k",
+    "comments": 64
   },
   {
     "id": 25,
-    "image": "posts-25.jpg"
+    "image": "posts-25.jpg",
+    "likes": "38.2k",
+    "comments": 13
   },
   {
     "id": 26,
-    "image": "posts-26.jpg"
+    "image": "posts-26.jpg",
+    "likes": "5.9k",
+    "comments": 5
   },
   {
     "id": 27,
-    "image": "posts-27.jpg"
+    "image": "posts-27.jpg",
+    "likes": "18.3k",
+    "comments": 24
   }
 ]
