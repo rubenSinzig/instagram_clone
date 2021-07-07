@@ -33,9 +33,29 @@
   }
 
   .banner-button {
+    @include flex-center;
+    flex-direction: column;
+    justify-content: space-between;
     width: auto;
-    height: 50px;
-    border: 1px dashed lightsalmon;
+    height: 60px;
+
+    button {
+      @include insta-btn;
+      width: 110px;
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    p {
+      a {
+        font-size: 15px;
+        color: $button-color;
+        text-decoration: none;
+      }
+    }
   }
 
   .banner-close {
