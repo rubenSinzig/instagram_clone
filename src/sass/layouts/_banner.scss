@@ -15,13 +15,21 @@
     font-size: 30px;
     border: 2px solid white;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 15px;
   }
 
   .banner-text {
-    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 65%;
     height: 50px;
-    border: 1px dashed greenyellow;
+    margin-right: 10px;
+    font-size: 15px;
+
+    p:nth-child(2) {
+      font-weight: lighter;
+    }
   }
 
   .banner-button {
