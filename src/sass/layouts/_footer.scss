@@ -1,0 +1,23 @@
+.footer-wrapper {
+  @include flex-center;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 120px;
+  padding-top: 15px;
+
+  .footer-wrapper-short-links {
+    @include flex-center;
+
+    .footer-short-links {
+      padding: 8px;
+
+      a {
+        text-decoration: none;
+        color: #929292;
+        font-size: 12px;
+        letter-spacing: 0.25mm;
+      }
+    }
+  }
+}
