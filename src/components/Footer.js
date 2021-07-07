@@ -1,6 +1,10 @@
 import React from "react";
+import { BiCopyright } from "react-icons/bi";
 
 const Footer = () => {
+  // get the year for copyright
+  const year = new Date().getFullYear();
+
   return (
     <div className="footer-wrapper">
       {/* short links */}
@@ -51,6 +55,9 @@ const Footer = () => {
           <option value="Fra">Français</option>
           <option value="Por">Português</option>
         </select>
+        <div className="footer-copyright">
+          <BiCopyright /> {year} Ruben
+        </div>
       </div>
     </div>
   );

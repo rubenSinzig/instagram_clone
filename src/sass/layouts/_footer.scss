@@ -3,11 +3,12 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  height: 120px;
+  height: 140px;
   padding-top: 15px;
 
   .footer-wrapper-short-links {
     @include flex-center;
+    margin-bottom: 10px;
 
     .footer-short-links {
       padding: 8px;
@@ -18,6 +19,26 @@
         font-size: 12px;
         letter-spacing: 0.25mm;
       }
+    }
+  }
+
+  .footer-wrapper-copyright {
+    @include flex-center;
+
+    select {
+      background-color: #fafafa;
+      width: 70px;
+      color: #929292;
+      border: none;
+      outline: none;
+      font-size: 12px;
+      margin-right: 15px;
+    }
+
+    .footer-copyright {
+      @include flex-center;
+      color: #929292;
+      font-size: 13px;
     }
   }
 }
