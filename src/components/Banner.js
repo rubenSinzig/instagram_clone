@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { SiInstagram } from "react-icons/si";
 import { MdClose } from "react-icons/md";
 
 const Banner = () => {
+  const [closing, setClosing] = useState(true);
+
+  const closeBanner = () => {
+    setClosing(!closing);
+  };
+
   return (
-    <div className="banner-wrapper">
+    <div className={closing ? "banner-wrapper" : "closing"}>
       <div className="banner-icon">
         <SiInstagram />
       </div>
@@ -29,7 +35,7 @@ const Banner = () => {
       </div>
 
       <div className="banner-close">
-        <MdClose />
+        <MdClose onClick={closeBanner} />
       </div>
     </div>
   );
