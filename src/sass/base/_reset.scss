@@ -5,4 +5,5 @@
 .main-wrapper {
   @include flex-center;
   flex-direction: column;
+  background-color: #fafafa;
 }
