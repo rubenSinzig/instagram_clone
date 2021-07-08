@@ -1,8 +1,8 @@
-![File Icon](/src/images/readme-icon.png)
+![File Icon](/public/images/readme-icon.png)
 
 ## Instagram-Clone
 
-**[View Project](#)**
+**[View Project](https://rubensinzig.github.io/instagram_clone/)**
 
 ---
 
@@ -19,10 +19,11 @@
   - _Fonts_
   - _Design_
   - _Icons_
+  - _Colors_
 
 ---
 
-[![Screenshot from Project](/src/images/readme-screenshot.png)](#)
+[![Screenshot from Project](/public/images/readme-screenshot.gif)](https://rubensinzig.github.io/instagram_clone/)
 
 ### About Project
 
@@ -57,5 +58,6 @@ LinkedIn: [Ruben Sinzig](#)
 - [npm](https://www.npmjs.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [ColorZilla](https://www.colorzilla.com/chrome/)
 
 ---
